@@ -2,7 +2,7 @@
 
 [![N|TERESINA-LIMPA](./images/portfolio_img.png)](https://github.com/wandersonsousa/teresina-limpa)
 
-Teresina-limpa é um projeto que visa agrupar informações a respeito do processo de coleta de lixo na nossa cidade, afim de conscientizar a população sobre como ajudar, e os efeitos que ações contrárias ao indicado por orgãos de saúde e meio ambiente podem provocar.
+Teresina-limpa é um projeto que visa agrupar informações a respeito do processo de coleta de lixo na nossa cidade, a fim de conscientizar a população sobre como ajudar, e os efeitos que ações contrárias ao indicado por órgãos de saúde e meio ambiente podem provocar.
 
 > Meio ambiente: para preservar é preciso conhecer.
 ( Marnice Loppes  )
