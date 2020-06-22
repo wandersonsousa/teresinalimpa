@@ -1,0 +1,363 @@
+.flex{
+	display: flex;
+	display: -moz-flex;
+	display: -webkit-flex;
+
+	flex-wrap: wrap;
+}
+
+.flex-column{
+	-webkit-flex-direction:column;
+	-moz-flex-direction:column;
+}
+
+
+/* Estilizando Nav-redes */
+.nav-icons{
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #252323;
+}
+
+.logo-text{
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+}
+.logo span{
+	color: #06a5b0;
+}
+
+/* icons-nav */
+.container-icons i{
+	color: #c1c1c1;
+	font-size: 1.3em;
+	margin-left: 20px;
+}
+
+/* Hovers in Nav */
+.container-icons a i{
+	transition: 0.1s ease-in-out;
+}
+
+.container-icons .fa-wifi:hover{
+	color: #cdd5e5;
+}
+.container-icons .fa-facebook-f:hover{
+	color: #4267b2;
+}
+.container-icons .fa-twitter:hover{
+	color: #2aa9e0;
+}
+.container-icons .fa-linkedin-in:hover{
+	color: #0077b5;
+}
+
+
+/* Menu Nav */
+#drop-btn{
+	display: none;
+	margin-top: 20px;
+}
+
+.nav-menu{
+	width: 100%;
+	height: auto;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-menu ul{
+	width: 50%;
+	justify-content: space-around;
+}
+#active{
+	border-bottom: 2px solid #50ccd4;
+	padding-bottom: 4px;
+}
+.link-nav{
+	display: flex;
+	height: 60px;
+	align-items: center;
+	font-family: 'open sans', cursive;
+	color: #c2c2c2;
+	text-transform: uppercase;
+	font-size: 0.95em;
+	margin-left: 10px;
+}
+
+/* Estilizando drop down sobre nos */
+
+#link-drop{
+	display: inline-block;
+	position: relative;
+}
+
+.container-drop{
+	position: absolute;
+	width: 100%;
+}
+.aboutus-nav{
+	display: flex;
+	flex-direction: column;
+}
+
+.aboutus-nav li{
+	opacity: 0;
+	transition:opacity 0.2s ease-in-out;
+}
+.aboutus-nav li:first-child{
+	transition-delay: 0;
+}
+.aboutus-nav li:nth-child(2){
+	transition-delay: 0.2s;
+}
+.aboutus-nav li:nth-child(3){
+	transition-delay: 0.4s;
+}
+.aboutus-nav li:last-child{
+	transition-delay: 0.6s;
+}
+
+
+
+
+
+.aboutus-nav a{
+	display: none;
+	width: 110px;
+	margin-top: 1px;
+	padding: 4px;
+	background-color: cyan;
+	border-radius: 2px 0 2px 0;
+	color: #fff;
+	font-family:'open sans';
+	font-size: 0.9em;
+	transition:all 2s ease;
+}
+
+
+/* hovers para drop sobrenos */
+#drop:hover{
+	color: #50ccd4;
+	padding-bottom: 4px;
+}
+
+#link-drop:hover .item-drop{
+	display:block;
+	opacity: 1;
+}
+#link-drop:hover .aboutus-nav li{
+	opacity: 1;
+}
+.aboutus-nav a:hover i{
+	color: #475993;
+}
+
+/* Estilizando campo de busca */
+
+.container-busca{
+	border: 1px solid #f1f1f1;
+}
+
+
+.busca-input{
+	font-family: 'Open Sans',FontAwesome;
+	padding: 5px;
+	border: 1px solid #f1f1f1;
+	border-right: none;
+}
+.busca-nav{
+	background:transparent;
+	color: #cdcdcd;	
+	padding-right: 0.9em;
+}
+
+.busca-input::placeholder{
+	text-align: center;
+	font-family:'open sans';
+}
+
+
+/* Hovers Nav-Menu */
+
+.link-nav:not(#drop):hover{
+	color: #50ccd4;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #50ccd4;
+}
+
+
+/* Estilizando o !slide */
+
+.slide{
+	width: 100%;
+	height: 500px;
+	background-image: url('../images/teresina.jpg'); 
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-family: 'open sans', cursive;
+	font-size: 1.1em;
+}
+
+.slide h2{
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+/* Inicio da estilizacao de article e das sections */
+.article-main{
+	width: 978px;
+	flex-direction: column;
+	justify-content: center;
+}
+.section-1{
+	text-align: center;
+	width: 100%;
+	padding: 5px;
+}
+
+
+
+.section-1 .title-section{
+	width: 100%;
+	font-family: 'open sans';
+	font-weight: lighter;
+	color: #959595;
+}
+
+.title-section span{
+	color: #656565;
+}
+
+.paragraph-section{
+	font-family: 'PT sans', verdana;
+	color: #c6c6c6;
+}
+/* Estilizando itens da primeira section */
+
+.container-itens{
+	margin-top: 100px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+}
+.container-itens figure{
+	padding: 5px;
+}
+.container-itens img{
+	width: 300px;
+	height: 200px;
+	border-radius: 6px;
+}
+.item-sections{
+	height: 334px;
+}
+
+.text-image{
+	font-family: 'PT sans';
+	color: #aaa;
+	font-weight: lighter;
+}
+.text-image a{
+	display: inline-block;
+	font-family: 'open sans';
+	color: #aaa;
+	margin-bottom: 15px;
+	transition: 0.2s ease-in-out;
+}
+.text-image a:hover{
+	color: black;
+}
+
+#item-sections{
+	margin-top: 60px;
+}
+
+/* Estilizando segunda section */
+
+
+.section-2{
+	width: 100%;
+	margin-top: 70px;
+	flex-wrap: wrap;
+	background:#eee;
+	justify-content: space-around;
+}
+.section-2 h1{
+	font-family: 'open sans';
+	color:#aaa;
+}
+.section-2 a:link{
+	font-family: 'open sans';
+	color:#aaa;
+	font-weight: lighter;
+	transition: 0.4s;
+}
+.section-2 a:hover{
+	color: #000;
+}
+.section-2 a:visited{
+	color: #000;
+}
+
+.section-2 span{
+	color:#fff;
+}
+
+.row-1{
+	width: 100%;
+}
+.row-2{
+	width: 100%;
+}
+.section-2 figure:nth-child(1){
+	margin-left:29px;
+}
+
+.section-2 figure{
+	width: 300px;
+	height: auto; 
+	margin-left: 10px;
+}.section-2 img{
+	width: 300px;
+	height: 200px;
+
+}
+.section-2 h1{
+	flex-basis: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Estilizando section3  */
+
+.container-logos{
+	width: 70%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+
+
+footer{
+	margin-top: 40px;
+	height:60px;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #262423;
+	font-family: 'open sans';
+	color: #6b6a69;
+}
+footer #facebook-me{
+	color: #7FFFD4;
+	transition:color 1s;
+}
+footer #facebook-me:hover{
+	color: #fff;
+}
