@@ -21,7 +21,7 @@ Tecnologias usadas detalhadas:
 
 ### Uso
 
-O projeto foi hospedado no github pages, para acessar simplesmente clique nesse link e será redirecionado para o site: [website](https://git.wandersonsousa/teresina-limpa)
+O projeto foi hospedado no github pages, para acessar simplesmente clique nesse link e será redirecionado para o site: [website](https://wandersonsousa.github.io/teresinalimpa/)
 
 
 
